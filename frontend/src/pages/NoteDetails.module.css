@@ -1,0 +1,28 @@
+.container{
+    display:block;
+    background-color: #f0fffd;
+    height:440px;
+    @apply overflow-hidden w-4/6 mx-auto mt-36 text-lg rounded-2xl border-2;
+}
+.textarea{
+    width:auto;
+    border: none;
+    outline: none;
+    resize:none;
+    background:transparent;
+    word-break:break-all;
+    @apply ml-4 text-2xl;
+}
+.buttons__container{
+    @apply flex justify-center flex-row gap-x-80;
+}
+.cancel__button{
+    cursor:pointer;
+    background-color:#FF4500;
+    @apply rounded-xl text-white px-20 py-2 text-2xl;
+}
+.apply__button{
+    cursor:pointer;
+    background-color:#32CD32;
+    @apply rounded-xl text-white px-20 py-2 text-2xl;
+}

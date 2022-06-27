@@ -1,0 +1,10 @@
+.container{
+    background-color: #93fdef;
+    border: solid;
+    border-color: radial-gradient(circle, rgba(147,253,239,1) 0%, rgba(253,245,230,1) 0%, rgba(147,253,239,1) 100%);
+    
+    @apply border-0 border-b-4 text-black text-2xl;
+}
+.header{
+    @apply mr-4 font-medium inline-block ml-6;
+}

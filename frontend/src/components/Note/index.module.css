@@ -1,0 +1,19 @@
+.container{
+    transition: 0.5s;
+    @apply mx-auto text-xl font-medium rounded-lg flex py-4 text-black flex-row pl-4;
+}
+.container:hover{
+    background-color: #d5e1df;
+}
+.note__body{
+    display:block;
+    
+    @apply flex flex-row ml-8;
+}
+.p{
+    @apply inline-block;
+}
+.date{
+    right:20%;
+    @apply absolute inline;
+}

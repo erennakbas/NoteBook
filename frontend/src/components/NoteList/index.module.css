@@ -1,0 +1,20 @@
+.list{
+    display:block;
+    height:290px;
+    list-style-type: none;
+    padding: 0;
+    background-color: #f0fffd;
+    @apply overflow-y-auto mt-1 flex flex-col text-white;
+}
+.horizontal__line{
+    width: 95%;
+    margin:auto;
+    color:gray;
+    background-color:gray ;
+    border-color:gray;
+    @apply border-2;
+}
+ .add__button{
+    margin-left:45%;
+    cursor:pointer;
+} 
