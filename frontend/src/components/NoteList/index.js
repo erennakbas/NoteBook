@@ -21,7 +21,7 @@ const NoteList = () => {
             <ul className={styles.list}>
                 {notes.map((note, index)=>{
                     return <React.Fragment key={index}>
-                                <Note note={note}/>
+                                <Note activeNote={note} notes={notes} setNotes={setNotes}/>
                                 <hr className={styles.horizontal__line}/>
                             </React.Fragment>
                 }

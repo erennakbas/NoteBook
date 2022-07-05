@@ -2,5 +2,6 @@
     display:block;
     background-color: #f0fffd;
     height:470px;
-    @apply overflow-hidden w-4/6 mx-auto mt-36 text-lg rounded-2xl border-2;
+    margin-top:6%;
+    @apply overflow-hidden w-4/6 mx-auto text-lg rounded-2xl border-2;
 }

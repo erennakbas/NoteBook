@@ -17,3 +17,19 @@
     right:20%;
     @apply absolute inline;
 }
+.button{
+    margin-top:-45px;
+    transition: 0.8s;
+    border-radius: 100%;
+    position:absolute;
+    display:block;
+    z-index:2;
+    right:5%;
+    background-color:transparent;
+}
+.button:hover{
+    background-color:#f6bf56;
+}
+.li {
+    @apply block relative
+}

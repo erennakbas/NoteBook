@@ -14,7 +14,31 @@
     border-color:gray;
     @apply border-2;
 }
- .add__button{
+.add__button{
+    transition:0.5s;
+    border-radius:100%;
     margin-left:45%;
     cursor:pointer;
+}
+.add__button:hover{
+    background-color:gray;
+}
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px #2F4F4F;
+	border-radius: 7px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 7px;
+	-webkit-box-shadow: inset 0 0 6px #2F4F4F;;
+	background-color: #93fdef;;
 } 

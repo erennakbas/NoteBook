@@ -17,12 +17,20 @@
     @apply flex justify-center flex-row gap-x-80;
 }
 .cancel__button{
+    transition:0.3s;
     cursor:pointer;
     background-color:#FF4500;
     @apply rounded-xl text-white px-20 py-2 text-2xl;
 }
+.cancel__button:hover{
+    background-color:#ff0000
+}
 .apply__button{
+    transition:0.3s;
     cursor:pointer;
     background-color:#32CD32;
     @apply rounded-xl text-white px-20 py-2 text-2xl;
+}
+.apply__button:hover{
+    background-color: rgb(5, 185, 5);
 }

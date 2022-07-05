@@ -2,6 +2,7 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('notes', views.get_notes, name='notes'),
-    path('note/<int:id>', views.get_note, name='note')
+    path('', views.api_root),
+    path('notes', views.NoteList.as_view(), name='notes'),
+    path('notes/<int:pk>', views.NoteDetail.as_view(), name='note')
 ]
