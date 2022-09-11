@@ -5,6 +5,6 @@
     
     @apply border-0 border-b-4 text-black text-2xl;
 }
-.header{
+.heading{
     @apply mr-4 font-medium inline-block ml-6;
 }

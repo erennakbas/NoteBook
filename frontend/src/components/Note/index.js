@@ -6,7 +6,7 @@ import DeleteIcon from "@mui/icons-material/Delete";
 import axios from "axios";
 
 const NoteListItem = ({ activeNote, notes, setNotes }) => {
-  let date = new Date(activeNote.created);
+  let date = new Date(activeNote.updated);
   const handleDelete = async () => {
     await axios.delete(`/api/notes/${activeNote.id}`);
     setNotes(notes.filter((note) => note.id !== activeNote.id));
